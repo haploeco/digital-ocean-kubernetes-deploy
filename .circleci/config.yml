@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/buildpack-deps:stretch
     environment:
-      IMAGE_NAME: haploeco/do-kubernetes-sample-app
+      IMAGE_NAME: nthompson66/do-kubernetes-sample-app
     working_directory: ~/app
     steps:
       - checkout
