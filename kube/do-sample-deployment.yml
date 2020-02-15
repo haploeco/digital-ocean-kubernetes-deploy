@@ -18,6 +18,3 @@ spec:
       containers:
         - name: do-kubernetes-sample-app
           image: nthompson66/do-kubernetes-sample-app:$COMMIT_SHA1
-          ports:
-            - containerPort: 80
-              name: http
